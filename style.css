@@ -3,30 +3,26 @@
 :root {
       --background: #FFE5D3;
       --light-orange: #FFCEAD;
-      --orange: #FFA86E;      
+      --orange: #FFA86E;
       --border: #035E7B;
+
 
       --text-muted: #94a3b8;
       --text-selected: #79a5b7;
 
       --text-border: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-
-      --border-blue: #38bdf8;
-      --border-green: #4ade80;
-      --border-purple: #c084fc;
       
-      --fonte-site: 'Quicksand', sans-serif;
+      --font-site: 'Quicksand', sans-serif;
       --font-pixel: 'VT323', monospace;
       --font-code: 'Fira Code', monospace;
     }
 
     body.night-mode {
-      --background: #121218;
-      --border: #121216;
-      --orange: #a86c38;
-      --border-blue: #0284c7;
-      --border-green: #16a34a;
-      --border-purple: #9333ea;
+      --background: #5570a3;
+      --light-orange: #c7d1fe; 
+      --orange: #3a5588; /* eu sei que não é laranja, mas eu to reaproveitando variaveis :p */
+      --border: #b95537;
+      --text-selected: #cfa693;
     }
 
     * {
@@ -41,7 +37,7 @@
       background-repeat: repeat;
       background-size: 540px 540px;
       color: var(--border);
-      font-family: var(--fonte-site);
+      font-family: var(--font-site);
       display: flex;
       justify-content: center;
       padding: 20px 10px 60px 10px;
