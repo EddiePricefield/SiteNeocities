@@ -11,3 +11,7 @@ if (horas == 5 || horas == 18) {
   document.body.style.backgroundImage = "url('assets/bckg/background2.png')";
   document.body.classList.add("night-mode");
 }
+
+function copiarBotao(){
+  navigator.clipboard.writeText('<a href="https://eddiepricefield.neocities.org/" target="_blank"><img src="https://ne0nbandit.github.io/assets/img/btn/eddie-btn.png"></a>')
+}
